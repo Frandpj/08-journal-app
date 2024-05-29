@@ -5,7 +5,7 @@ import { NoteView, NothingSelectedView } from "../views"
 
 export const JournalPage = () => {
     return (
-        <JournalLayout>
+        <JournalLayout className="animate__animated animate__fadeIn animate__faster">
             {/* <Typography>Occaecat anim nisi proident nulla incididunt consequat magna minim.</Typography> */}
 
             {/* NothingSelected */}
